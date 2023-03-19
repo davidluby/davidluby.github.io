@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        
+        <!--allocating tab title block for each page-->
+        <title>
+            
+   Microcontrollers
+
+        </title>
+
+        <!--charset is like an alphabet-->
+        <!--viewport gives instructions on how to handle differnt devices-->
+        <meta charset="utf-8">
+        <meta name="author" content="David Luby">
+        <meta name="description" content="David Luby Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=yes">
+
+        <!--global navbar/css/icon links-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+
+        <link rel="stylesheet" href="/static/css/main.css">
+
+        <link rel="icon shortcut" href="/static/images/logo.ico"/>
+
+        
+        <!--allocating page-specific head calls-->
+        
+    <link rel="stylesheet" href="/static/css/micro.css">
+
+
+    </head>
+    <body class="container-fluid" id="body-back">
+
+        <!--initialize navbar-->
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top bar pad-strip">
+
+            <!--container for buttons-->
+            <div class="container-fluid">
+            
+                
+
+                <!--hamburger menu for condensed view-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"> </span>
+                </button>
+                
+                <!--home/brand logo-->
+                <a class = "navbar-brand logo nav-link active" href="/"></a>
+                
+                <!--bulk bar-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+                    <ul class="navbar-nav me-auto mb-lg-0">
+
+                        <!--resume-->
+                        <li class="nav-item">
+                            <a class="nav-link active nav-but" aria-current="page" href="/resume.html">
+                                Resume
+                            </a>
+                        </li>
+
+                        <!--software-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active nav-but nav-bar" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Software
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/big.html">
+                                        Big-O Notation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/fifo.html">
+                                        First In, First Out
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/fft.html">
+                                        Fast Fourier Transform
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!--firmware-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active nav-but" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Firmware
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/micro.html">
+                                        Microcontroller Basics
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/timer.html">
+                                        Timer Function
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!--mechanical-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active nav-but" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Mechanical
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/controls.html">
+                                        Control Systems
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/fourier.html">
+                                        Fourier Transform
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/fea.html">
+                                        Finite Element Analysis
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+    
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+
+        <!--opening div for each page-->
+        <div class="pages">
+            
+    <div>
+        <!--overview-->
+        <div class="tleft">
+            <h1 class="tleft">
+                Arduino Overview
+            </h1>
+            <div class="sb-two ymid">
+                <p>
+                A high-level description of an Arduino board can be reduced to
+                a microcontroller (MCU) and a printed circuit board (PCB),
+                emphasizing the MCU as the essential tool and the PCB as its
+                interfacing environment. The
+                <a href = "https://www.microchip.com/en-us/product/ATmega328P" class="inline"
+                    target="_blank" rel="noopener noreferrer">Atmel ATmega 328P</a>
+                (328P) MCU plus an Arduino PCB submit the Arduino Uno to this
+                description. Interaction with the 328P is facilitated by the
+                PCB it sits on, however, plenty of users elect to interface
+                with these chips using a
+                <a href = "https://www.youtube.com/watch?v=nRrva24zqXY&ab_channel=BeingEngineers"
+                    class="inline" target="_blank" rel="noopener noreferrer">custom PCB</a> or even just a
+                    <a href = "https://www.youtube.com/watch?v=YXtj6nh_8dA&ab_channel=0033mer"
+                        class="inline" target="_blank" rel="noopener noreferrer">breadboard</a>. 
+                </p>
+                <p>
+                    MCU instructions are typically programmed in C or C++ using an
+                    Integrated Development Environment (IDE), like Atmel's
+                    <a href = "https://www.youtube.com/watch?v=nRrva24zqXY&ab_channel=BeingEngineers"
+                        class="inline" target="_blank" rel="noopener noreferrer">Microchip Studio</a>.
+                    Other languages and IDE's like Assembly or Python and
+                    Visual Studio or Arduino IDE can be used. The
+                    applications presented here are written mostly in C using
+                    Microchip Studio.
+                </p>
+                <p>
+                    These instruction files (scripts) are compiled, or translated,
+                    into files an MCU can understand, called hex (hexadecimal)
+                    files, and uploaded to the MCU from a computer. Instructions
+                    given to an MCU often map a system of inputs to program logic
+                    which maps a system of outputs back through the PCB for some
+                    function, like controlling an LED.
+                </p>
+            </div>
+            <div class="sb-two ymid tmid">
+                <img src="/static/images/arduino.jpg" id="arduino">
+            </div>
+        </div>
+
+
+        <!--essentials-->
+        <div>
+            <h1>
+                Essentials
+            </h1>
+            <p>
+                There are a number of fundamental concepts and components
+                essential for interaction with Arduino boards. The following
+                is a <i>very</i> brief description of those most universal to
+                the successful marriage of software and hardware.
+            </p>
+            <ul>
+                <li>
+                    Binary (logic) signals: a digital signal that can either
+                    be high or low, corresponding to a 1 or 0 in logic terms
+                    and 5 or 0 volts (usually) in physical terms.
+                </li>
+                <li>
+                    Pins and ports: a pin is an electrical lead on the MCU
+                    that is connected to the PCB, also called a bit. They are
+                    organized in bunches, called ports, and can send or
+                    receive signals to or from a given system, respectively.
+                </li>
+                <li>
+                    Registers: a register occupies a space in memory that data
+                    can be read from or written to. Data read from registers
+                    often represent system inputs, while data written to them
+                    represent outputs. A port is a type of register.
+                </li>
+                <li>
+                    Special function registers (SFR): SFR's are similar to a
+                    traditional register, except they have special bits called
+                    control and flag bits. Writing to a control bit toggles
+                    native MCU functions, while reading from a flag bit
+                    typically indicates some status regarding a triggering
+                    condition in the MCU. These register functions ship with
+                    the chip as opposed to plain registers which inherit
+                    functionality from instruction logic.
+                </li>
+            </ul>
+            <p>
+                A real synthesis of these basic elements can be illustrated
+                by an Arduino and a mechanical push button used to light up an
+                LED. Pressing the button completes a circuit that sends a 5
+                volt (high) signal to a pin connected to one end. The
+                unpressed case sends the same 5 volt signal to ground and a
+                low signal to the pin. Software instructs the MCU to read the
+                signal from the memory address register (MAR) corresponding to
+                the input pin and submit the binary signal to program logic.
+                The logic maps the input to an output, responding through a
+                different pin using its unique MAR. The output pin sends
+                a 5 or 0 volt signal to the LED circuit, either turning it on
+                or off depending on the MCU's instructions.
+            </p>
+        </div>
+
+        
+        <!--configuration-->
+        <div>
+            <h1>
+                Configuration
+            </h1>
+                <p>
+                    The 
+                    <a href = "https://store.arduino.cc/products/arduino-mega-2560-rev3" class="inline"
+                    target="_blank" rel="noopener noreferrer">Arduino Mega 2560</a> is comprised of an
+                    <a href = "https://www.microchip.com/en-us/product/ATMEGA2560" class="inline"
+                        target="_blank" rel="noopener noreferrer">Atmel ATmega 2560</a> (2560)
+                    microprocessor and Arduino board. The
+                    <a href = "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/ATmega640-1280-1281-2560-2561-Datasheet-DS40002211A.pdf"
+                        class="inline" target="_blank" rel="noopener noreferrer">microprocessor's
+                        datasheet</a> and
+                    <a href = "https://www.electronicshub.org/wp-content/uploads/2021/01/Arduino-Mega-Pinout.jpg"
+                        class="inline" target="_blank" rel="noopener noreferrer"> Arduino board pinout</a> are
+                    used for the marriage of software and hardware. Remaining
+                    site content is confined to applications using this
+                    microcontroller and board but can be replicated in others
+                    following the same principles.
+                </p>
+        </div>
+    </div>
+
+
+        </div>
+    </body>
+</html>

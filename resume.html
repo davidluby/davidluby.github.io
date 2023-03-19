@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        
+        <!--allocating tab title block for each page-->
+        <title>
+            
+   Resume
+
+        </title>
+
+        <!--charset is like an alphabet-->
+        <!--viewport gives instructions on how to handle differnt devices-->
+        <meta charset="utf-8">
+        <meta name="author" content="David Luby">
+        <meta name="description" content="David Luby Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=yes">
+
+        <!--global navbar/css/icon links-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+
+        <link rel="stylesheet" href="/static/css/main.css">
+
+        <link rel="icon shortcut" href="/static/images/logo.ico"/>
+
+        
+        <!--allocating page-specific head calls-->
+        
+    <link rel="stylesheet" href="/static/css/resume.css">
+
+
+    </head>
+    <body class="container-fluid" id="body-back">
+
+        <!--initialize navbar-->
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top bar pad-strip">
+
+            <!--container for buttons-->
+            <div class="container-fluid">
+            
+                
+
+                <!--hamburger menu for condensed view-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"> </span>
+                </button>
+                
+                <!--home/brand logo-->
+                <a class = "navbar-brand logo nav-link active" href="/"></a>
+                
+                <!--bulk bar-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+                    <ul class="navbar-nav me-auto mb-lg-0">
+
+                        <!--resume-->
+                        <li class="nav-item">
+                            <a class="nav-link active nav-but" aria-current="page" href="/resume.html">
+                                Resume
+                            </a>
+                        </li>
+
+                        <!--software-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active nav-but nav-bar" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Software
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/big.html">
+                                        Big-O Notation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/fifo.html">
+                                        First In, First Out
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/fft.html">
+                                        Fast Fourier Transform
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!--firmware-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active nav-but" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Firmware
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/micro.html">
+                                        Microcontroller Basics
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/timer.html">
+                                        Timer Function
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!--mechanical-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active nav-but" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Mechanical
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/controls.html">
+                                        Control Systems
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/fourier.html">
+                                        Fourier Transform
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/fea.html">
+                                        Finite Element Analysis
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+    
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+
+        <!--opening div for each page-->
+        <div class="pages">
+            
+<!--technical skills-->
+    <div>
+        <h1>
+            Technical Skills
+        </h1>
+        <div class="sb-res">
+            <div class="sb-three ytop">
+                <h2 class="strip">
+                    Software Engineering
+                </h2>
+                <ul class="tleft mar-strip">
+                    <li>
+                        C, Python, Javascript, SQL, HTML, CSS, MATLAB
+                    </li>
+                    <li>
+                        Data structures and algorithms
+                    </li>
+                    <li>
+                        Cloud computing (AWS) system design with CI/CD version control (Git/GitHub)
+                    </li>
+                    <li>
+                        Full-stack web development
+                    </li>
+                </ul>
+            </div>
+            <div class="sb-three ytop">
+                <h2 class="strip">
+                    Firmware Engineering
+                </h2>
+                <ul class="tleft mar-strip">
+                    <li>
+                        Atmel Microchip Studio, C, Arduino
+                    </li>
+                    <li>
+                        Mechatronic system modeling (DC/stepper motors, IR sensors, Hall Effect sensor, color sensor)
+                    </li>
+                    <li>
+                        Microprocessor programming and component interfacing (datasheets)
+                    </li>
+                </ul>
+            </div>
+            <div class="sb-three ytop">
+                <h2 class="strip">
+                    Mechanical Engineering
+                </h2>
+                <ul class="tleft mar-strip">
+                    <li>
+                        MATLAB, SIMULINK, SOLIDWORKS, Excel, JMP
+                    </li>
+                    <li>
+                        Version-controlled product development (SOLIDWORKS PDM)
+                    </li>
+                    <li>
+                        Control system, finite element, and statistical analysis
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!--work experience-->
+    <div>
+        <h1 class="resume-mar">
+            Work Experience
+        </h1>
+        <div>
+            <h2>
+                <div class="alignleft">Lake Shore Cryotronics - Woburn, MA</div>
+                <div class="alignright font-shrink">May 2022-Aug 2022</div>
+                <div style="clear: both;"></div>
+            </h2>
+            <p class="strip"><i>Mechanical Engineering Intern</i></p>
+            <ul>
+                <li>
+                    Analyzed ST-500 cryostat tolerance stack up (TSU) and initiated an engineering change order for an approximate
+                    67% reduction (~1 mm) in the worst-case TSU without threat to product budget.
+                </li>
+                <li>
+                    Engaged in research and development of a collet-style adjustable sample holder with cooling capacity effective to 
+                    approximately 4 Kelvin to linearize manufacturing through a more versatile product.
+                </li>
+                <li>
+                    Applied complete cyclic engineering method in new product development and sustaining engineering, interfacing 
+                    with SOLIDWORKS PDM for company coordination.
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>
+                <div class="alignleft">Federal Aviation Administration - Washington, DC</div>
+                <div class="alignright font-shrink">June 2021-Aug 2021</div>
+                <div style="clear: both;"></div>
+            </h2>
+            <p class="strip"><i>Systems Engineering Intern</i></p>
+            <ul>
+                <li>
+                    Established an Inherent Availability requirement at the three 9's threshold (99.9% availability) for Non-Federal 
+                    Remote Airport Traffic Control Towers (ATCT) to ensure adherence to safety and performance standards within 
+                    the National Airspace System (NAS).
+                </li>
+                <li>
+                    Substantiated Federal authority to enforce an availability requirement for Non-Federal Remote Tower (RT) 
+                    systems using existing domestic and foreign documents detailing Non-Federal RT system association to the NAS.
+                </li>
+                <li>
+                    Amended RT Systems Minimum Functional and Performance Requirements for Non-Federal Applications
+                    document to reflect updated Non-Federal Remote ATCT system RMA requirements.
+
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>
+                <div class="alignleft">MATLAB Grader - Durham, NH</div>
+                <div class="alignright font-shrink">Sep 2021-Dec 2021</div>
+                <div style="clear: both;"></div>
+            </h2>
+            <p class="strip"><i>Assignment Grader</i></p>
+            <ul>
+                <li>
+                    Interpreted students' unique script architectures to assist in debugging and provide constructive feedback to 
+                    promote growth and enhance learning.
+
+                </li>
+                <li>
+                    Developed appreciation for producing personally and externally comprehensible work for effective collaboration.
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--education-->
+    <div>
+    <h1 class="resume-mar">
+        Education
+    </h1>
+    <div>
+        <h2>
+            <div class="alignleft">Bachelor of Science: Mechanical Engineering</div>
+            <div class="alignright font-shrink">Aug 2018-Dec 2022</div>
+            <div style="clear: both;"></div>
+        </h2>
+        <div class="alignleft"><i>University of New Hampshire - Durham, NH</i></div>
+        <div class="alignright">GPA: 3.1</div>
+        <div style="clear: both;"></div>
+        <ul>
+            <li>
+                Intramurals: Flag Football, Softball, Soccer
+            </li>
+            <li>
+                Dean's List
+            </li>
+        </ul>
+    </div>
+    </div>
+<!--certifications-->
+    <div>
+        <h1 class="resume-mar">
+            Certifications
+        </h1>
+        <ul>
+            <li>
+                Security Clearance
+            </li>
+            <li>
+                Class B Commerical Driver's License
+            </li>
+            <li>
+                US DOT health card
+            </li>
+        </ul>
+    </div>
+
+
+    
+
+
+        </div>
+    </body>
+</html>

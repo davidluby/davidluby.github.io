@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        
+        <!--allocating tab title block for each page-->
+        <title>
+            
+   Homepage
+
+        </title>
+
+        <!--charset is like an alphabet-->
+        <!--viewport gives instructions on how to handle differnt devices-->
+        <meta charset="utf-8">
+        <meta name="author" content="David Luby">
+        <meta name="description" content="David Luby Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=yes">
+
+        <!--global navbar/css/icon links-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+
+        <link rel="stylesheet" href="/static/css/main.css">
+
+        <link rel="icon shortcut" href="/static/images/logo.ico"/>
+
+        
+        <!--allocating page-specific head calls-->
+        
+   <link rel="stylesheet" href="/static/css/home.css">
+
+
+    </head>
+    <body class="container-fluid" id="body-back">
+
+        <!--initialize navbar-->
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top bar pad-strip">
+
+            <!--container for buttons-->
+            <div class="container-fluid">
+            
+                
+
+                <!--hamburger menu for condensed view-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"> </span>
+                </button>
+                
+                <!--home/brand logo-->
+                <a class = "navbar-brand logo nav-link active" href="/"></a>
+                
+                <!--bulk bar-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+                    <ul class="navbar-nav me-auto mb-lg-0">
+
+                        <!--resume-->
+                        <li class="nav-item">
+                            <a class="nav-link active nav-but" aria-current="page" href="/resume.html">
+                                Resume
+                            </a>
+                        </li>
+
+                        <!--software-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active nav-but nav-bar" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Software
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/big.html">
+                                        Big-O Notation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/fifo.html">
+                                        First In, First Out
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/fft.html">
+                                        Fast Fourier Transform
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!--firmware-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active nav-but" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Firmware
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/micro.html">
+                                        Microcontroller Basics
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/timer.html">
+                                        Timer Function
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!--mechanical-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active nav-but" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Mechanical
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/controls.html">
+                                        Control Systems
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/fourier.html">
+                                        Fourier Transform
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/fea.html">
+                                        Finite Element Analysis
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+    
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+
+        <!--opening div for each page-->
+        <div class="pages">
+            
+
+   <!--welcome-->
+   <div class="sb-mar-hom tmid">
+      <div class="sb-two ymid tleft">
+         <h1>
+            Welcome
+         </h1>
+         <p>
+            Thank you for visiting my website. I am a recent graduate from the University of New Hampshire with a degree in mechanical engineering. I developed this
+            site to advertise my career interests&#8212;especially those not native to mechanical engineering.
+         </p>
+         <p>
+            Start here and with the resume page for an overview of personal projects and experience. The remaining pages serve as background underlying the most
+            personally-interesting topics. <i><b>Please connect via
+            <a href="https://linkedin.com/in/david-luby/" class="inline" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
+            or email with any interest in discussing content in further depth.</b></i>
+         </p>
+      </div>
+      <!--avatar-->
+      <div class="sb-two ymid">
+         <div>
+            <img src="/static/images/best - crop.jpg" id ="avatar">
+         </div>
+         <div>
+            <h2 class="mar-strip" id="card-top">
+               <b>David Luby</b>
+            </h2>
+            <p class="card-body mar-strip pad-strip">
+               davidluby273@gmail.com | Boston Area
+            </p>
+            <p class="mar-strip pad-strip" id="card-body">
+               BS, Mechanical Engineering, University of New Hampshire
+            </p>
+               <a href="https://linkedin.com/in/david-luby/" class="d-inline-block align-middle card-body" id="logo-linked" target="_blank" rel="noopener noreferrer"></a>
+               <a href="https://github.com/davidluby" class="d-inline-block align-middle card-body" id="logo-github" target="_blank" rel="noopener noreferrer"></a>
+            </p>            
+         </div>
+      </div>
+   </div>
+
+
+
+   <!--flask-->
+   <div class="sb-mar-hom tmid">
+      <div class="sb-two ymid tleft">
+         <h1>
+            Python-Flask Web Portfolio
+         </h1>
+         <p>
+            This website is served via AWS Elastic Beanstalk using a version-controlled CodePipeline facilitated by Git/GitHub. It synthesizes
+            Javascript, SQL, HTML, and CSS over a Python-Flask web framework. All the source code is available on
+            <a href="https://github.com/davidluby/website" class="inline" target="_blank" rel="noopener noreferrer"> GitHub</a> 
+            (check out the other repositories).
+         </p>
+      </div>
+      <div class="sb-two ymid">
+         <h2>
+            Celtics Standings and Power Rankings
+         </h2>
+         <p>
+            Tables go here
+         </p>
+      </div>
+   </div>
+
+
+
+
+   <!--bike-->
+   <div class="sb-mar-hom tmid">
+      <div class="sb-two ymid tleft">
+         <h1>
+            Motorized Bicycle
+         </h1>
+         <p>
+            The best aspect of this project was that it did not end until I
+            sold the bike. It turns out that adding a four-stroke engine to
+            the frame of a cheap bicycle tends to create more problems than it
+            solves, requiring constant maintenance in response to vibrations
+            never meant for a pedal bike. Experiential improvement by
+            iteration helped unveil complex systems as large sums of simple
+            solutions.
+         </p>
+      </div>
+      <div class="sb-two ymid tmid">
+         <div>
+            <img src="/static/images/bike.jpg"id ="bike">
+         </div>
+      </div>
+   </div>
+
+
+        </div>
+    </body>
+</html>
